@@ -1,9 +1,9 @@
-function changeBackground(){
-    document.body.style.background = "pink";
-}
-
-
-// const bgchange =(id) => {
-//     document.body.style.background = 
-//         document.getElementById(id).innerHTML;
+// function changeBackground(){
+//     document.body.style.background = "pink";
 // }
+
+function changeColor(color){
+    let elem = document.getElementById('body');
+    elem.style.backgroundColor= color;
+    // document.getElementById(id).innerHTML;
+}
